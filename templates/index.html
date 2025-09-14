@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CapyStack Tester</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="card shadow-sm mx-auto" style="max-width: 600px;">
+            <div class="card-body text-center">
+                <img src="{{ url_for('static', filename='images/logo.svg') }}" alt="Logo" class="mb-4" style="max-width: 156px;">
+                <h1 class="card-title mb-3 text-success">If you see this, it worked!</h1>
+                <p class="card-text">
+                    Welcome to the capystack test repository. Use this repo to try a simple, single-app deployment 
+                    with capystack—nothing more, nothing less. You’ll find three example refs: main (stable), 
+                    testing (work in progress), and a sample release tag. Pick one, deploy, and you’re set. 
+                    Found something to improve? Please open an issue or a PR.
+                </p>
+                <a href="https://github.com/zyra-engineering-ltda/capy-stack" target="_blank" class="btn btn-primary">More information</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="text-center mt-5 py-3 bg-white border-top">
+        <div class="container">
+            <small>
+                <strong>CapyStack</strong> - Lightweight CI/CD Platform - GPLv3<br>
+                &copy; 2025 Zyra Engineering.
+            </small>
+        </div>
+    </footer>
+</body>
+</html>
